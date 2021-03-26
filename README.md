@@ -1,5 +1,5 @@
 # personal-website
 
-Website with the design intent to be used as a website version of my resume.
+Website with the design intent to be personal portfolio website.
 
 still a work in progress
