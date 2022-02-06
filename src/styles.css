@@ -1,8 +1,8 @@
 body {
   font-family: "DM Sans", sans-serif;
-  color: rgb(63, 63, 63);
   font-size: 18px;
   margin: 0px;
+  background-color: whitesmoke;
 }
 
 header {
@@ -14,11 +14,14 @@ header {
   display: block;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
-section {
-  min-height: 1000px;
-  background-color: rgb(223, 223, 223);
+footer {
+  text-align: center;
+  color: white;
+  background-color: #464646;
+  min-height: 50px;
 }
 
 .nav-menu {
@@ -73,23 +76,27 @@ main {
   min-height: 1000px;
   display: flex;
 }
-main aside {
-  flex-grow: 1;
-  background-color: rgb(187, 187, 187);
-}
-main section {
-  flex-grow: 5;
-}
-footer {
-  height: 50px;
-  
+
+.headshot {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  margin-top: 0;
+  overflow: hidden;
+  z-index: -1;
 }
 
 img {
-  width: 500;
-  height: 500;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  
+  width: 700px;
+  height: auto;
+  margin-left: -75px;
+}
+
+.image-disclaimer {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  z-index: 0;
 }
